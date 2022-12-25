@@ -1,12 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Contact.scss";
 
 export default function Contact() {
-    const [message, setMessage] = useState(false);
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        setMessage(true);
-    }
+
     return (
         <div className='contact' id='contact'>
             <div className="left">
@@ -14,11 +10,11 @@ export default function Contact() {
             </div>
             <div className="right">
                 <h2>Contact.</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder='email' />
-                    <textarea placeholder='message'></textarea>
+                <form action="https://formspree.io/f/xlekrana"
+                    method="POST">
+                    <input type="email" name="email" placeholder='email' />
+                    <textarea name="message" placeholder='message'></textarea>
                     <button type='submit'>Submit</button>
-                    <span>Thanks, I'll reply ASAP :)</span>
                 </form>
             </div>
 

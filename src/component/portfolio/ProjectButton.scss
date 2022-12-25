@@ -1,0 +1,31 @@
+@import "../../global.scss";
+.button {
+  padding: 10px 5px;
+  width: 45%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border: none;
+  background-color: #eeeeee;
+  transition: all 0.5s ease;
+
+  @include mobile {
+    padding: 6px 3px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+    @include mobile {
+      transform: scale(1);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
