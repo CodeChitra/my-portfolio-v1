@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Portfolio.scss";
 import PortfolioList from './PortfolioList'
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from "../../data";
+import { featuredProjects, basicProjects, intermediateProjects, advancedProjects } from "../../data";
 import ProjectButton from './ProjectButton';
 export default function Portfolio() {
     const [data, setData] = useState([]);
@@ -20,30 +20,27 @@ export default function Portfolio() {
             title: "Intermediate"
         },
         {
-            id: "advance",
-            title: "Advance"
+            id: "advanced",
+            title: "Advanced"
         }
     ]
 
     useEffect(() => {
         switch (selected) {
             case "feautred":
-                setData(featuredPortfolio);
+                setData(featuredProjects);
                 break;
             case "basic":
-                setData(webPortfolio);
+                setData(basicProjects);
                 break;
             case "intermediate":
-                setData(mobilePortfolio);
+                setData(intermediateProjects);
                 break;
-            case "advance":
-                setData(designPortfolio);
-                break;
-            case "branding":
-                setData(contentPortfolio);
+            case "advanced":
+                setData(advancedProjects);
                 break;
             default:
-                setData(featuredPortfolio);
+                setData(featuredProjects);
         }
     }, [selected])
     return (

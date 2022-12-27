@@ -1,4 +1,4 @@
-export const featuredPortfolio = [
+export const featuredProjects = [
     {
         id: 1,
         title: "The Movie App",
@@ -38,7 +38,7 @@ export const featuredPortfolio = [
     // },
 ];
 
-export const webPortfolio = [
+export const basicProjects = [
     {
         id: 1,
         title: "Calculator",
@@ -70,21 +70,27 @@ export const webPortfolio = [
 
 ];
 
-export const mobilePortfolio = [
+export const intermediateProjects = [
     {
         id: 1,
-        title: "Mobile Social Media App",
-        img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+        title: "The Movie App",
+        img: "https://cdn.pixabay.com/photo/2020/05/16/00/32/wallpapers-5175525_960_720.png",
+        code: "https://github.com/CodeChitra/Chitrakala",
+        live: "https://codechitra.github.io/Chitrakala/"
     },
     {
         id: 2,
-        title: "Mobile Rampa UI Design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        title: "Text Analyser",
+        img: "https://cdn.elearningindustry.com/wp-content/uploads/2016/08/top-8-mobile-apps-for-text-analysis-1024x575.png",
+        code: "https://github.com/CodeChitra/textAnalyser",
+        live: "https://codechitra.github.io/textAnalyser/"
     },
     {
         id: 3,
-        title: "Mobile E-commerce Design",
-        img: "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+        title: "The Simon Game",
+        img: "https://w1.pngwing.com/pngs/138/573/png-transparent-simon-area-game-simon-says-smile-smiley-circle-symbol-thumbnail.png",
+        code: "https://github.com/CodeChitra/The-Simon-Game",
+        live: "https://codechitra.github.io/The-Simon-Game/"
     },
     {
         id: 4,
@@ -103,7 +109,7 @@ export const mobilePortfolio = [
     },
 ];
 
-export const designPortfolio = [
+export const advancedProjects = [
     {
         id: 1,
         title: "Design Social Media App",
@@ -132,39 +138,6 @@ export const designPortfolio = [
     {
         id: 6,
         title: "Design Banking App",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-];
-
-export const contentPortfolio = [
-    {
-        id: 1,
-        title: "Content Social Media App",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 2,
-        title: "Content Rampa UI Design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 3,
-        title: "Content E-commerce Web Design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 4,
-        title: "Content Relax Mobile App",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 5,
-        title: "Content Keser Web Design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 6,
-        title: "Content Banking App",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
     },
 ];

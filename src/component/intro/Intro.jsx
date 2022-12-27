@@ -12,7 +12,7 @@ export default function Intro() {
         <div className='intro' id='intro'>
             <div className="left">
                 <div className="imgContainer">
-                    <img src="https://www.transparentpng.com/thumb/man/rTkJ7v-man-png-image.png" alt="loading" />
+                    <img src="assets/avatar.png" alt="loading" />
                 </div>
             </div>
             <div className="right">
