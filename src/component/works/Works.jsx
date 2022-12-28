@@ -6,24 +6,34 @@ export default function Works() {
     const data = [
         {
             id: "1",
-            icon: "./assets/mobile.png",
-            title: "Web Design",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting. ",
-            img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+            icon: "./assets/front.png",
+            title: "Front-End",
+            desc: "Technologies that are used to design UI.",
+            img1: "assets/html.png",
+            img2: "assets/css.png",
+            img3: "assets/js1.png",
+            img4: "assets/react.png",
+            img5: "assets/bootstrap.png",
+            img6: "assets/saas.png"
         },
         {
             id: "2",
-            icon: "./assets/globe.png",
-            title: "Mobile Application",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting.",
-            img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+            icon: "./assets/back.png",
+            title: "Back-End",
+            desc: "Technologies that are used to design API and Database.",
+            img1: "assets/node.png",
+            img2: "assets/mongodb.png",
+            img3: "assets/mysql.png",
+            img4: "assets/firebase.png",
         },
         {
             id: "3",
-            icon: "./assets/writing.png",
-            title: "Branding",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting.",
-            img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+            icon: "./assets/tool.png",
+            title: "Tools",
+            desc: "Tools that are used to enhance productivity.",
+            img1: "assets/git.png",
+            img2: "assets/github.png",
+            img3: "assets/vs.png",
         },
     ];
 
@@ -32,6 +42,7 @@ export default function Works() {
     }
     return (
         <div className="works" id='works'>
+
             {/* Here we are dynamically translating slider according to the number of slide, if it is slide no 1 then translateX(0) if it is slide no 2 then translateX( -(1 * 100)vw ) ie translateX(-100vw)*/}
             <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
 
@@ -44,11 +55,36 @@ export default function Works() {
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
-                                <span>Projects</span>
+
                             </div>
                         </div>
                         <div className="right">
-                            <img src={d.img} alt="" />
+                            <div className="rightWrapper">
+
+                                <div className='logo'>
+                                    <img src={d.img1} alt="HTML5" />
+                                </div>
+                                <div className='logo'>
+
+                                    <img src={d.img2} alt="CSS3" />
+                                </div>
+                                <div className='logo'>
+
+                                    <img src={d.img3} alt="JAVASCRIPT" />
+                                </div>
+                                {d.img4 && <div className='logo'>
+
+                                    <img src={d.img4} alt="REACT JS" />
+                                </div>}
+                                {d.img5 && <div className='logo'>
+
+                                    <img src={d.img5} alt="BOOTSTRAP" />
+                                </div>}
+                                {d.img6 && <div className='logo'>
+
+                                    <img src={d.img6} alt="BOOTSTRAP" />
+                                </div>}
+                            </div>
                         </div>
                     </div>
                 </div>)
