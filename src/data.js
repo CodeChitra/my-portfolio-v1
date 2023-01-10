@@ -79,7 +79,7 @@ export const intermediateProjects = [
     {
         id: 4,
         title: "Notes Taking App",
-        img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+        img: "https://images.pexels.com/photos/4238511/pexels-photo-4238511.jpeg?auto=compress&cs=tinysrgb&w=600",
         code: "https://github.com/CodeChitra/Notes-Taking-Web-App",
         live: "https://codechitra.github.io/Notes-Taking-Web-App/#"
     }
