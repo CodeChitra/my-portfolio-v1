@@ -8,3 +8,8 @@ $width: 768px;
     @content;
   }
 }
+@mixin mobile2 {
+  @media (max-width: 446px) {
+    @content;
+  }
+}
