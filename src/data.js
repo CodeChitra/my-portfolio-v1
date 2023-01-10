@@ -82,7 +82,8 @@ export const intermediateProjects = [
         img: "https://images.pexels.com/photos/4238511/pexels-photo-4238511.jpeg?auto=compress&cs=tinysrgb&w=600",
         code: "https://github.com/CodeChitra/Notes-Taking-Web-App",
         live: "https://codechitra.github.io/Notes-Taking-Web-App/#"
-    }
+    },
+
 ];
 
 export const advancedProjects = [
