@@ -60,14 +60,14 @@ export const intermediateProjects = [
         title: "Expense Tracker",
         img: "https://images.pexels.com/photos/5849577/pexels-photo-5849577.jpeg?auto=compress&cs=tinysrgb&w=600",
         code: "https://github.com/CodeChitra/Expense-Tracker-React-JS-",
-        live: "https://codechitra.github.io/Chitrakala/"
+        live: "https://react-expense-tracker-mu.vercel.app/"
     },
     {
         id: 2,
         title: "Text Analyser",
         img: "https://cdn.elearningindustry.com/wp-content/uploads/2016/08/top-8-mobile-apps-for-text-analysis-1024x575.png",
         code: "https://github.com/CodeChitra/textAnalyser",
-        live: "https://react-expense-tracker-mu.vercel.app/"
+        live: "https://codechitra.github.io/textAnalyser/"
     },
     {
         id: 3,
