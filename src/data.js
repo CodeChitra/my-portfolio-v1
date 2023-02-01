@@ -1,5 +1,12 @@
 export const featuredProjects = [
     {
+        id: 4,
+        title: "Samvad: A Chatting App",
+        img: "https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&w=600",
+        code: "https://github.com/CodeChitra/Samvad-A-Chatting-Plateform",
+        live: "https://samvad.vercel.app/register"
+    },
+    {
         id: 1,
         title: "The Movie App",
         img: "https://cdn.pixabay.com/photo/2020/05/16/00/32/wallpapers-5175525_960_720.png",
@@ -12,13 +19,6 @@ export const featuredProjects = [
         img: "https://cdn.elearningindustry.com/wp-content/uploads/2016/08/top-8-mobile-apps-for-text-analysis-1024x575.png",
         code: "https://github.com/CodeChitra/textAnalyser",
         live: "https://codechitra.github.io/textAnalyser/"
-    },
-    {
-        id: 3,
-        title: "The Simon Game",
-        img: "https://w1.pngwing.com/pngs/138/573/png-transparent-simon-area-game-simon-says-smile-smiley-circle-symbol-thumbnail.png",
-        code: "https://github.com/CodeChitra/The-Simon-Game",
-        live: "https://codechitra.github.io/The-Simon-Game/"
     },
 ];
 
@@ -93,5 +93,12 @@ export const advancedProjects = [
         img: "https://cdn.pixabay.com/photo/2020/05/16/00/32/wallpapers-5175525_960_720.png",
         code: "https://github.com/CodeChitra/Chitrakala",
         live: "https://codechitra.github.io/Chitrakala/"
+    },
+    {
+        id: 2,
+        title: "Samvad: A Chatting App",
+        img: "https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&w=600",
+        code: "https://github.com/CodeChitra/Samvad-A-Chatting-Plateform",
+        live: "https://samvad.vercel.app/register"
     },
 ];
